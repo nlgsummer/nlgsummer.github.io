@@ -1,0 +1,38 @@
+.col{
+    width: 170px; 
+    text-align: center;
+}
+
+.lec{
+    font-style: italic;
+}
+
+.break{
+ background-color: #E3F6CE;   
+}
+
+.end{
+    width: 180px; 
+    text-align: center;
+    background-color: #F5F6CE;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-spacing: 0;
+    padding: 8  ; 
+}
+
+body{
+    font-family: Georgia ;
+    width: 1000px;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+h1, h2{
+ color: #21610B;   
+}
