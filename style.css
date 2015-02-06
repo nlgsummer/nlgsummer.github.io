@@ -1,3 +1,9 @@
+#main{
+     margin-left: 100px;
+    margin-right: auto;
+    width: 1000px;
+}
+
 .col{
     width: 170px; 
     text-align: center;
@@ -25,7 +31,6 @@ table, th, td{
 
 body{
     font-family: Georgia ;
-    width: 1000px;
 }
 
 p{
@@ -35,4 +40,11 @@ p{
 
 h1, h2{
  color: #21610B;   
+}
+#sponsor{
+     margin-left: 30%;
+}
+
+.logo{
+  width: 30%;   
 }
