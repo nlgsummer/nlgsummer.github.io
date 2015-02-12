@@ -1,7 +1,8 @@
 #main{
+
      margin-left: 100px;
-    margin-right: auto;
-    width: 1000px;
+    margin-right: 120px;
+
 }
 
 .col{
@@ -25,6 +26,10 @@
 
 .title{
  font-weight: bold;
+}
+
+.banner{
+    width: 100%;
 }
 
 table, th, td{
@@ -51,4 +56,8 @@ h1, h2{
 
 .logo{
   width: 30%;   
+}
+
+li{
+ text-align: justify;  
 }
