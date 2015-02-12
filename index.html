@@ -56,7 +56,7 @@
   <tr>
     <td> 9:00-10:30</td>
     <td class="col"> Intro to NLG <br><span class="lec">(Ehud Reiter)</span></td>
-    <td class="col"> Machine Learning <br><span class="lec">Yannis Konstas</span></td>
+    <td class="col"> Learning to Generate <br><span class="lec">Yannis Konstas</span></td>
     <td class="col"> Intro to Summarisation <br><span class="lec">Advaith Siddharthan</span></td>
     <td class="col"> System Evaluation <br><span class="lec">Ehud Reiter</span></td>
     <td class="col"> Readability <br><span class="lec">Thomas François</span></td>
@@ -152,7 +152,16 @@
     <li><span class="title">Introduction to Dialogue Systems: </span><br>
 The module will start with a question: What is dialogue? We will survey studies on human-human dialogue in search for a tentative answer. We then compare and contrast human-human dialogue with human-machine dialogue. This will lead us to an examination of various dialogue systems - past and present. We will consider dialogue system architectures and approaches to dialogue management. The module concludes with a look at recent developments, from incremental processing in dialogue to models of non-cooperative dialogue.
     </li>
-    <li> <span class="title">Introduction to Machine Learning for NLG </span><br>
+    <li> <span class="title">Learning to generate: Concept-to-text generation using machine learning </span><br>
+        The explosion of the world wide web in the recent years has generated data that are both in very large amounts, as well is in obscure or inaccessible formats to
+non-expert users (e.g., numeric, tabular forms, graphs, etc).
+Several successful generation systems have been produced in the past twenty years, that mostly rely on human-crafted rules or expert-driven grammars.
+While reliable and capable of generating high-quality output, such systems are usually difficult to exploit patterns in very large sets of data, as well as 
+port to different domains, without significant human intervention.
+In this tutorial, we will explore systems in NLG that learn the well-known pipeline modules of content selection, microplanning and surface realisation,
+automatically from data. We will visit methods that model each step into a probabilistic model or other weighted function, and learn their parameters by optimising
+a text output-related objective metric (e.g., BLEU, METEOR scores). Generation is then viewed as a common search problem, which entails finding the best 
+combination of parameters given the trained model and an input. We will also compare systems that optimise each module in isolation, as well as jointly.
     </li>
     <li> <span class="title">Evaluation: </span><br>
          Different ways to evaluate NLG systems will be discussed, including task-based, human-              based, and metric-based; what can we learn from these different types of evaluation?  We            will also summarise practice in each of these types of evaluations, and present the design          and outcomes of several real NLG evaluations.
