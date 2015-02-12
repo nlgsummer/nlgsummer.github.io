@@ -23,6 +23,10 @@
     background-color: #F5F6CE;
 }
 
+.title{
+ font-weight: bold;
+}
+
 table, th, td{
     border: 1px solid gray;
     border-spacing: 0;
