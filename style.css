@@ -8,6 +8,7 @@
 .col{
     width: 170px; 
     text-align: center;
+
 }
 
 .lec{
@@ -60,4 +61,8 @@ h1, h2{
 
 li{
  text-align: justify;  
+}
+
+.header{
+    text-align: center;
 }
