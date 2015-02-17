@@ -42,6 +42,10 @@
   techniques used by dialogue systems to substantially improve the generated
   output.
 </p>
+      
+      <p>
+          The summer school will be primarily aimed at PhD students and early career researchers but more experienced will be admitted to the extent that space permits. The registration will open at the end of February. The cost of registration will be £200 for students and £300 for others. 
+      </p>
 
 <h2>Summer School Time Table</h2>
 
@@ -142,8 +146,27 @@
     <span class="title"> NLG in detail </span><ul>
          <li><span class="title">Content Determination: </span><span class="lec">Chris Mellish (University of Aberdeen)</span></li>
         This talk will summarise existing approaches to content determination for NLG, as well as touching on the closely related topics of text ordering and structuring.  It will discuss why content determination is hard and what sorts of (hand-crafted or learned) models can be used to inform it. It is often useful to regard content determination as a search problem, and we will take this approach in order to compare the different methods that have been used.
-         <li><span class="title">Micro-planning:</span></li>
-         <li><span class="title">Surface Realisation:</span></li>
+         <li><span class="title">Micro-planning:</span><span class="lec">Albert Gatt (University of Malta)</span><br>
+
+This session will be devoted to discussing different micro-planning tasks. In particular, we will review some of the “classic” sub-tasks that microplanners have often been designed to perform, notably:
+
+(a) lexicalisation, the task of choosing the right words or lemmas to express the contents of the message;
+(b) aggregation, the task of merging distinct representations into a single, more concise representation;
+(c) referring expression generation, the task of selecting the content (and, to some extent, the form) of referential noun phrases in text.
+
+Following a brief discussion of these “classic” sub-tasks, the session will then move on to a relatively under-studied problem in microplanning, which arises when the text being generated has “narrative” qualities — that is, it recounts events which, in addition to being related to each other in the generated discourse, are also related to each other in time. In this case, new questions arise in relation to choices the microplanner has to make, notably where tense, aspect and temporal connectives are concerned.
+
+For the purposes of illustration, the discussion of these microplanning sub-tasks will be conducted  with reference to a concrete family of NLG systems, developed in the BabyTalk Project (Portet et al, 2009; Gatt et al, 2009; Hunter et al, 2011, 2012). However, reference will also be made to recent statistical approaches to NLG, in particular, the use of machine-learning methods to learn models from data that provide the kernel to the solutions of these sub-tasks.
+             </li>
+         <li><span class="title">Surface Realisation:</span><span class="lec">Albert Gatt (University of Malta)</span><br>
+        In this session, we will first discuss the domain of realisation with reference to a number of different languages. The purpose of this is mainly to delineate the problem: different languages will make different demands on a realiser, and in some cases, syntactic choices will have repercussions for microplanning decisions.
+
+Next, we will look at an overview of different realisers, starting with some classic rule-based examples, such as RealPro and KPML (Bateman, 1997). These will be contrasted with recent approaches, such as HALOGEN (Langkilde-Geary and Knight, 2002) or OpenCCG (White et al, 2007), where the aim is to minimise the rule-based component while allowing syntactic choices to be made probabilistically, usually through the use of n-gram based language models. In each of these cases — whether rule-based or statistical — there are assumptions made about the nature of the input, usually motivated by some theory of syntax.
+
+Finally, we will distinguish realisers such as the above from “realisation engines”, which simply provide the tools to perform morphosyntactic realisation in a given language, without any commitment as to the nature of the input representation. As a specific case study, we will use SimpleNLG (Gatt and Reiter, 2009).
+        
+        
+        </li>
         
         </ul>
     </li>
@@ -205,7 +228,7 @@ combination of parameters given the trained model and an input. We will also com
 <hr>
     <footer>
     <p>Send us an <a href="mailto:nlg.summer@abdn.ac.uk">email</a>  if you have a question.</p>
-      <p>Last update: 13th February 2015</p>
+      <p>Last update: 17th February 2015</p>
     </footer>
 
  </div>
