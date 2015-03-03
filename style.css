@@ -33,6 +33,33 @@
     width: 100%;
 }
 
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#in{
+    float: left;
+}
+
+a.menuA:link, a.menuA:visited {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #66C021;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.menuA:hover, a.menuA:active {
+    background-color: #259A1A;
+}
+
 table, th, td{
     border: 1px solid gray;
     border-spacing: 0;
@@ -66,3 +93,4 @@ li{
 .header{
     text-align: center;
 }
+
