@@ -1,0 +1,25 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: NLG Summer School Forum
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Forum for the NLG summer school
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Roman Kutlak
+
+# Uncomment if you are planning to run the blog in a subdirectory
+# Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
+# Example, you must use http://localhost:4000/path/to/blog
+baseurl: /forum
+
+# The URL of your actual domain. This will be used to make absolute links in the RSS feed.
+url: http://nlgsummer.github.io/forum
+
+# Exclude system files
+exclude: [.gitignore]
+
+# The disqus shortname for your forum
+disqus_shortname: nlgsummer
+
+# The public key for your disqus application
+disqus_publickey: Ruki9meM7dF6CtmOmvhXfhdTcPL0JMe6RmYR2DGtiHWJqyo0g9DPivKaK2nZxvLk

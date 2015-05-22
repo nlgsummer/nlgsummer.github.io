@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Natural Language Generation Summer School</title>
-    
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,20 +14,20 @@
   ga('create', 'UA-59578456-1', 'auto');
   ga('send', 'pageview');
 
- 
+
     </script>
-    
+
 </head>
 
 <body>
-    
-    
+
+
   <div id="main">
     <div>
       <img class="banner" src="images/Kin'sCollege.jpg"/>
     </div>
-      
-      
+
+
 
       <ul id="menu">
         <li id="in"><a class="menuA" href="index.html">Home</a></li>
@@ -35,11 +35,12 @@
         <li id="in"><a class="menuA" href="summer_accommodation.html">Accommodation</a></li>
         <li id="in"><a class="menuA" href="aberdeen.html">City Guide</a></li>
         <li id="in"><a class="menuA" href="transport.html">Transport</a></li>
+        <li id="in"><a class="menuA" href="forum">Forum</a></li>
       </ul>
 
   <h1 id="header">Summer School on Natural Language Generation, Summarisation, and Dialogue Systems</h1>
   <h2>20th - 24th July 2015</h2>
- <h3 class="attention">The dates of the summer school has changed from the originally advertised ones.</h3>      
+ <h3 class="attention">The dates of the summer school has changed from the originally advertised ones.</h3>
   <p>
   The objective of this summer school is to introduce participants to the
   concepts and research questions in natural language generation (NLG),
@@ -55,9 +56,9 @@
   techniques used by dialogue systems to substantially improve the generated
   output.
 </p>
-      
+
       <p>
-          The summer school will be primarily aimed at PhD students and early career researchers but more experienced will be admitted to the extent that space permits. The <b>early bird registration</b> will be £200 for students and £250 for others untill the <b>15th of May</b>. 
+          The summer school will be primarily aimed at PhD students and early career researchers but more experienced will be admitted to the extent that space permits. The <b>early bird registration</b> will be £200 for students and £250 for others untill the <b>15th of May</b>.
       </p>
 
 <h2>Summer School Time Table</h2>
@@ -177,14 +178,14 @@ For the purposes of illustration, the discussion of these microplanning sub-task
 Next, we will look at an overview of different realisers, starting with some classic rule-based examples, such as RealPro and KPML (Bateman, 1997). These will be contrasted with recent approaches, such as HALOGEN (Langkilde-Geary and Knight, 2002) or OpenCCG (White et al, 2007), where the aim is to minimise the rule-based component while allowing syntactic choices to be made probabilistically, usually through the use of n-gram based language models. In each of these cases — whether rule-based or statistical — there are assumptions made about the nature of the input, usually motivated by some theory of syntax.
 
 Finally, we will distinguish realisers such as the above from “realisation engines”, which simply provide the tools to perform morphosyntactic realisation in a given language, without any commitment as to the nature of the input representation. As a specific case study, we will use SimpleNLG (Gatt and Reiter, 2009).
-        
-        
+
+
         </li>
-        
+
         </ul>
     </li>
     <li><span class="title">Introduction to Summarisation:</span><span class="lec">Advaith Siddharthan (University of Aberdeen)</span><br>
-        This tutorial will cover a range of text summarisation approaches described in the literature for extractive and abstractive summarisation, including models for sentence selection in extractive summarisation based on various statistical definitions of "topic", abstractive summarisation through aggregation and deletion, attempts at microplanning (e.g., generating referring expressions), the use of template based generation, and issues of text planning or sentence ordering. 
+        This tutorial will cover a range of text summarisation approaches described in the literature for extractive and abstractive summarisation, including models for sentence selection in extractive summarisation based on various statistical definitions of "topic", abstractive summarisation through aggregation and deletion, attempts at microplanning (e.g., generating referring expressions), the use of template based generation, and issues of text planning or sentence ordering.
 
     </li>
     <li><span class="title">Introduction to Dialogue Systems: </span><span class="lec">Paul Piwek (Open University)</span><br>
@@ -194,11 +195,11 @@ The module will start with a question: What is dialogue? We will survey studies 
         The explosion of the world wide web in the recent years has generated data that are both in very large amounts, as well is in obscure or inaccessible formats to
 non-expert users (e.g., numeric, tabular forms, graphs, etc).
 Several successful generation systems have been produced in the past twenty years, that mostly rely on human-crafted rules or expert-driven grammars.
-While reliable and capable of generating high-quality output, such systems are usually difficult to exploit patterns in very large sets of data, as well as 
+While reliable and capable of generating high-quality output, such systems are usually difficult to exploit patterns in very large sets of data, as well as
 port to different domains, without significant human intervention.
 In this tutorial, we will explore systems in NLG that learn the well-known pipeline modules of content selection, microplanning and surface realisation,
 automatically from data. We will visit methods that model each step into a probabilistic model or other weighted function, and learn their parameters by optimising
-a text output-related objective metric (e.g., BLEU, METEOR scores). Generation is then viewed as a common search problem, which entails finding the best 
+a text output-related objective metric (e.g., BLEU, METEOR scores). Generation is then viewed as a common search problem, which entails finding the best
 combination of parameters given the trained model and an input. We will also compare systems that optimise each module in isolation, as well as jointly.
     </li>
     <li> <span class="title">Evaluation: </span><span class="lec">Ehud Reiter (University of Aberdeen, ARRIA NLG)</span><br>
@@ -208,7 +209,7 @@ combination of parameters given the trained model and an input. We will also com
     <li> <span class="title">Readability: </span><span class="lec">Thomas François (Université catholique de Louvain)</span><br>
     The field of readability aims at automatically assessing the difficulty of texts for a given population. A readability model uses some of the linguistic characteristics of the texts and combines them with a statistical algorithm, traditionally linear regression. The first attempts date back to the 1920's and the field has since seen the development of famous formula such as Flesch's (1948) or Gunning's (1952). They have been widely used in the anglo-saxon world, for instance to control the difficulty of articles in mainstream newspapers. However, the limitations of readability models have been stressed as early as the end of the 70's (Kintsch and Vipond, 1979). Selzer (1981) even published a critical paper entitled “Readability is a four-letter word”. This eventually led to the investigation of new research avenues, relying on computational linguistics as well as machine learning techniques to improve traditional approaches (Collins-Thompson and Callan, 2005 ; Schwarm and Ostendorf, 2005). In spite of these recent advances, readability remains a challenging field that offers large room for improvement as well as a lot of opportunities for real applications.
 
-<br>In this readability module, we will first outline the main tendencies in the field, with a focus on recent work that applies NLP techniques to readability. We will also describe the usual methodology framework applied to design a readability model and discuss some of the choices available within this framework. A summary of the evaluation techniques used in the field will end the first part of the module. In the second part, we will discuss some of the main challenges and issues in the field as we see them, such as the challenge of collecting large datasets of difficulty-annotated texts to train modern statistical algorithms, the issue of cross-domain generalisation, or the adaptation of readability methods to lower levels (sentence or word). This module will be concluded with some perspectives for future research in the field. 
+<br>In this readability module, we will first outline the main tendencies in the field, with a focus on recent work that applies NLP techniques to readability. We will also describe the usual methodology framework applied to design a readability model and discuss some of the choices available within this framework. A summary of the evaluation techniques used in the field will end the first part of the module. In the second part, we will discuss some of the main challenges and issues in the field as we see them, such as the challenge of collecting large datasets of difficulty-annotated texts to train modern statistical algorithms, the issue of cross-domain generalisation, or the adaptation of readability methods to lower levels (sentence or word). This module will be concluded with some perspectives for future research in the field.
     </li>
     <li> <span class="title">Cognitive Modelling:  the case of reference </span><span class="lec">Kees van Deemter (University of Aberdeen)</span><br>
         This lecture will discuss the idea that NLG systems can be seen as computational models of human language production, focussing on the production of referring expressions as a case study on which a substantial amount of work in recent years has focussed. I will discuss different types of computational models, and the different goals that these models can have, such as (1) emulating an average speaker in a corpus, (2) explaining the way in which speakers differ across a corpus, and (3) generating language that is easy to understand by human readers or hearers (e.g. in practical applications). These computational models will be compared with more traditional models developed in mainstream psycholinguistics.
@@ -216,31 +217,31 @@ combination of parameters given the trained model and an input. We will also com
       <li> <span class="title">The New Science of Information Delivery: </span><span class="lec"> Robert Dale (ARRIA NLG)</span><br>
           Natural Language Generation is a means to an end. That end is the delivery of information, and the great thing about NLG is that it provides a way of automating the delivery of the right information to the right people at the right time in the right way. But to really do that well, we need to understand the task of information delivery, and we need to understand how a variety of scientific disciplines provide underpinnings for how we can do that task well. This talk aims to stand back and look at the bigger picture: what it would mean to have a science of information delivery, with NLG as a key player along with a number of other technologies.
     </li>
-   
+
 
 </ol>
-      
+
       <h2>Open Lab</h2>
 
     <h3><span class="lec">Yaji Sripada (University of Aberdeen, ARRIA NLG)</span></h3>
        <p> The Open Lab sessions are your opportunity to test your learning at the summer school. You will build an NLG system end-to-end using the software modules we provide. You can work alone or as a team. The idea is not to push you into writing code round-the-clock to build loads of functionality. Instead you will be encouraged to focus on learning first-hand the design choices and trade-offs involved in building an NLG application. If you are new to computer programming but willing to learn, help will be available in these supervised lab sessions to get you started with your first program!
 </p>
-      
+
       <h2>Poster/Demo Sesson</h2>
-      At this session the participants can showcase the applications that they have developed in the open lab sessions and receive feedback from the lecturers and other participants. Also, there is an opportunity for all the participants to bring along a poster of the work they are currently involved in. It will be a good networking event for all of us. 
-      
+      At this session the participants can showcase the applications that they have developed in the open lab sessions and receive feedback from the lecturers and other participants. Also, there is an opportunity for all the participants to bring along a poster of the work they are currently involved in. It will be a good networking event for all of us.
+
       <h2>Evening lectures</h2>
         <ul>
         <li><span class="title"> Graeme Ritchie (University of Aberdeen)</span>  <span class="lec">Creative Language Generation</span> <br>
         Over the past two decades, the field of computational creativity has come into being, and grown considerably. Its aim is "to model, simulate or replicate creativity using a computer". To this end, most of the work focusses on building software which engages in activities commonly thought, within society, to be creative, such as visual art, concept generation, musical composition, etc. Many of these domains involve natural language (e.g. poetry, stories, jokes), and hence such work can be seen as a subarea, creative language generation. This talk will give a general introduction to the field of computational creativity, briefly review some of the language-based work, and discuss some of the methodological issues raised by such research.
-    
+
         </li>
         <li>
             <span class="title"> Paul Piwek (Open University)</span>  <span class="lec">TBC</span> <br>
         </li>
         </ul>
-      
-    <h2>Sponsors </h2>  
+
+    <h2>Sponsors </h2>
       <div id="sponsor">
         <img src="images/SICSA%20logo.png" class="logo"/>
           &nbsp;&nbsp;&nbsp;
@@ -259,6 +260,6 @@ combination of parameters given the trained model and an input. We will also com
     </footer>
 
  </div>
-    
+
 </body>
 </html>
