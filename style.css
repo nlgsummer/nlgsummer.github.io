@@ -26,7 +26,7 @@
 }
 
 .title{
- font-weight: bold;
+    font-weight: bold;
 }
 
 .banner{
@@ -71,19 +71,24 @@ body{
 }
 
 p{
-    text-align: justify;
-    
+    margin-top: 0.5em;
+    margin-bottom: 0px;
 }
 
 h1, h2{
  color: #21610B;   
 }
+
+h2 {
+    margin-top: 2em;
+}
+
 #sponsor{
      margin-left: 20%;
 }
 
 .logo{
-  width: 20%;   
+  height: 40px;   
 }
 
 #logoSassy{
@@ -101,5 +106,23 @@ li{
 .attention{
  color: red;
  text-align: justify; 
+}
+
+.courses li {
+    margin-top: 1em;
+}
+
+ol.small-list {
+    list-style-type: lower-alpha;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+ol.small-list li {
+    margin-top: 0px;
+}
+
+.topic-section {
+    font-weight: bolder;
 }
 
